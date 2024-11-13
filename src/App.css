@@ -1,0 +1,12 @@
+/* @media(max-width:480){
+    #foot{
+        display: flex;
+        flex-wrap: wrap;
+    }
+} */
+.landing h3{
+     font-family: "Sofia", cursive;
+} 
+.feature h2{
+    font-family: "Sofia", cursive; 
+}
