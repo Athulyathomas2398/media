@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Form from 'react-bootstrap/Form';
 import { ToastContainer, toast } from 'react-toastify';
+
 import 'react-toastify/dist/ReactToastify.css';
 import { addVideo } from '../Service/allAPI';
 
@@ -45,6 +46,7 @@ function Add({setaddVideoResponse}) {
         setaddVideoResponse(result.data)
         toast.success(`${result.data.caption} added to your collection`)
         handleClose()
+        setVideoDetails("")
       }
       
      }
@@ -122,8 +124,7 @@ function Add({setaddVideoResponse}) {
 
 
 
-      <ToastContainer
-position="top-right" autoClose={5000} theme="colored" />
+      
     </>
   )
 }

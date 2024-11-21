@@ -7,6 +7,8 @@ import { Link } from 'react-router-dom'
 
 function Home() {
   const [addVideoResponse,setaddVideoResponse]=useState("")
+  const[deleteVideoCategoryResponse,setDeleteVideoCategoryResponse]=useState("")
+  const[deleteVideoViewResponse,setDeleteVideoViewResponse]=useState("")
   return (
     <>
     <div className="container m-5 d-flex  justify-content-between">
@@ -19,11 +21,11 @@ function Home() {
     <div className="row m-5">
       <div className="col-lg-6">
         <h4 className='text-warning'>All Videos</h4>
-        <View addVideoResponse={addVideoResponse}/>
+        <View addVideoResponse={addVideoResponse} deleteVideoCategoryResponse={deleteVideoCategoryResponse} setDeleteVideoViewResponse={setDeleteVideoViewResponse} />
 
       </div>
       <div className="col-lg-6">
-        <Category/>
+        <Category setDeleteVideoCategoryResponse={setDeleteVideoCategoryResponse} deleteVideoViewResponse={deleteVideoViewResponse}/>
         
       </div>
     </div>

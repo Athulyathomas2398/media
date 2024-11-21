@@ -40,3 +40,21 @@ export const addCategory=async(categoryDetails)=>{
 export const getAllCategory=async()=>{
    return await commonAPI("GET",`${SERVER_URL}/allCategory`,"")
 }
+
+//api call for deleting category
+export const deleteCategory=async(categoryId)=>{
+   return await commonAPI("DELETE",`${SERVER_URL}/allCategory/${categoryId}`,{})
+}
+
+//api call for get a single video
+export const getSingleVideo=async(videoId)=>{
+   return await commonAPI("GET",`${SERVER_URL}/allVideos/${videoId}`,"")
+}
+//api call for updating category
+export const updateCategory=async(categoryId,categoryDetails)=>{
+   return await commonAPI("PUT",`${SERVER_URL}/allCategory/${categoryId}`,categoryDetails)
+}
+//api call for get a single video
+export const getSingleCategory=async(categoryId)=>{
+   return await commonAPI("GET",`${SERVER_URL}/allCategory/${categoryId}`,"")
+}
