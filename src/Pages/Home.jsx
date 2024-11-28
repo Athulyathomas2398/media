@@ -3,6 +3,7 @@ import Add from '../Components/Add'
 import View from '../Components/View'
 import Category from '../Components/Category'
 import { Link } from 'react-router-dom'
+import './Home.css'
 
 
 function Home() {

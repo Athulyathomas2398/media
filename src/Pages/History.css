@@ -1,0 +1,57 @@
+/* @media (max-width:480px){
+    .table{
+        width: 200px;
+    }
+} */
+
+ @media (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+
+  .d-flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .d-flex h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .d-flex a {
+    font-size: 1rem;
+  }
+
+  table {
+    font-size: 0.9rem;
+  }
+
+  th, td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  td a {
+    display: block;
+    word-wrap: break-word;
+    max-width: 100px;
+  }
+
+  .table {
+    width: 100%;
+    overflow-x: auto;
+    display: block;
+  }
+
+  .text-danger.fw-bold.fs-3 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  button {
+    font-size: 0.8rem;
+  }
+}
+ 

@@ -6,6 +6,7 @@ import Card from 'react-bootstrap/Card';
 import settings from '../assets/settings.png'
 import category from '../assets/categoryy.png'
 import history from '../assets/history.png'
+import './Landing.css'
 
 
 function Landing() {
@@ -88,7 +89,7 @@ function Landing() {
 
         </div>
         <div className="col-lg-6 p-5">
-        <iframe width="460" height="315" src="https://www.youtube.com/embed/d9MyW72ELq0?si=GQJJhmurpClld8tB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe className='utube' width="400" height="315" src="https://www.youtube.com/embed/d9MyW72ELq0?si=GQJJhmurpClld8tB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div>
    </div>

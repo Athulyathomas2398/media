@@ -5,3 +5,8 @@
     /* font-family: "Sofia", cursive; */
     font-family: "Space Grotesk", sans-serif;
 }
+/* @media (max-width:480px){
+    *{
+        overflow-x: hidden;
+    }
+} */

@@ -1,0 +1,9 @@
+@media (max-width:480px){
+    .landing{
+        margin-left: -10px;
+    }
+    .utube{
+        width: 300px;
+        margin-left: -10px;
+    }
+}
